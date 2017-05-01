@@ -1,0 +1,53 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url(../../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(../../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: roboto-lightitalic;
+    src: url(../../fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(../../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url(../../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: lato-black;
+    src: url(../../fonts/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: lato-bold;
+    src: url(../../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: lato-light;
+    src: url(../../fonts/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: gotham;
+    src: url(../../fonts/GothamRoundedBook_21018.ttf);
+}
+
+$_primaryColor: #FF5722;
+$_secondaryColor: #383C57;
+$_accentColor: #FF9800;
+$borderPrimary: #dddddd;
+$contentFont1: 13px;
+$contentFont2: 14px;
+$primaryFontFamily: 'Poppins',
+sans-serif;

@@ -1,0 +1,37 @@
+<section class="mainHero">
+  <section class="mainHero__container">
+
+    <section class="mainHero__signUp">
+      <section class="signupContent">
+        <div class="signupContent__heading">
+          <h1>SIGN UP</h1>
+          <h2></h2>
+          <ul>
+            <li ng-class="{'active': vm.category==='CUST'}" ng-click="vm.selectCategory('CUST')" ui-sref="register.form2">Customer </li> |
+            <li ng-class="{'active': vm.category==='MYB'}" ng-click="vm.selectCategory('MYB')" ui-sref="register.form2">MYB Team</li> |
+            <li ng-class="{'active': vm.category==='MYS'}" ng-click="vm.selectCategory('MYS')" ui-sref="register.form2">Mystery Shopper</li>
+          </ul>
+        </div>
+
+
+        <div class="signupContent__form" ng-if="vm.category!==null">
+
+          <form name="vm.form" ng-submit="vm.register(vm.form)" novalidate>
+
+
+
+
+            <div ui-view></div>
+
+
+          </form>
+
+        </div>
+        <div class="signupContent__text">
+          <h1>Already have a account <a ui-sref="login"><span>Sign In</span></a></h1>
+        </div>
+      </section>
+    </section>
+  </section>
+
+</section>

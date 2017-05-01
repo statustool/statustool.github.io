@@ -1,0 +1,36 @@
+<section class="mainHero">
+  <section class="mainHero__container">
+    <!--<header>-->
+
+    <!--</header>-->
+    <section class="mainHero__signUp">
+      <div class="demo">
+        <div class="login">
+          <form name="form" ng-submit="vm.login()" role="form">
+            <div class="login__check">
+              <img src="images/logo.png" />
+              <h1>MYSTERYBOX</h1>
+            </div>
+            <div class="login__form">
+              <div class="login__row">
+                <svg class="login__icon name svg-icon" viewBox="0 0 20 20">
+                  <path d="M0,20 a10,8 0 0,1 20,0z M10,0 a4,4 0 0,1 0,8 a4,4 0 0,1 0,-8" />
+                </svg>
+                <input autocomplete="off" class="login__input name" placeholder="Email ID" type="text" name="username" id="username" ng-model="vm.username" required/>
+              </div>
+              <div class="login__row">
+                <svg class="login__icon pass svg-icon" viewBox="0 0 20 20">
+                  <path d="M0,20 20,20 20,8 0,8z M10,13 10,16z M4,8 a6,8 0 0,1 12,0" />
+                </svg>
+                <input autocomplete="off" class="login__input pass" placeholder="Password" type="password" name="password" id="password" ng-model="vm.password" required />
+              </div>
+              <button type="submit" class="login__submit" type="submit" ng-disabled="vm.dataLoading">{{vm.dataLoading===false?'Sign in':'Signing In'}}</button>
+              <p class="login__signup">Don't have an account? &nbsp;<a ui-sref="register">Sign up</a></p>
+              <p class="login__signup"><a ui-sref="resetPassword">Forget Password?</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </section>
+</section>
