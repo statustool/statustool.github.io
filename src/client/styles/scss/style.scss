@@ -16,15 +16,7 @@ body {
 //all element
 
 
-#register{
 
-    top: 0px;
-    width: 88%;
-    padding: 18px 6% 60px 6%;
-    margin: 0 0 35px 0;
-    background: rgb(247, 247, 247);
-    border: 1px solid rgba(147, 184, 189,0.8);
-}
  #wrapper {
  
     right: 0px;
@@ -43,7 +35,7 @@ h3{
 
 input[type=text], input[type=password] {
     width: 100%;
-    padding: 8px 20px;
+    padding: 8px 0 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
