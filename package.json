@@ -1,6 +1,6 @@
 {
-  "name": "frugal",
-  "description": "myb Project Generated from HotTowel Angular",
+  "name": "statusTool",
+  "description": "statusTool Project Generated from HotTowel Angular",
   "version": "0.0.0",
   "scripts": {
     "init": "npm install",
@@ -11,7 +11,6 @@
   "dependencies": {
     "angular-filter": "^0.5.11",
     "body-parser": "^1.8.2",
-    "browser-sync": "^2.11.2",
     "express": "^4.9.3",
     "lodash": "^3.10.1",
     "morgan": "^1.1.1",
@@ -37,7 +36,6 @@
     "gulp-if": "^1.2.5",
     "gulp-imagemin": "^2.3.0",
     "gulp-inject": "^1.0.1",
-    "gulp-install": "^1.1.0",
     "gulp-jscs": "^2.0.0",
     "gulp-jshint": "^1.7.1",
     "gulp-less": "^3.0.1",

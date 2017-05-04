@@ -1,23 +1,29 @@
 
-<header>
-    <img src="images/hashlogo.png" />
-</header>
-
-<h2>Signup Form</h2>
-
-<form action="" style="border:1px solid #ccc">
-  <div class="container">
-    <label><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-
-    <label><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <label><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-    <input type="checkbox" checked="checked"> Remember me
+<div id="wrapper">
+ <!-- <div id="register"> -->
+  <form action="/action_page.php">
+    <div class="container">
+      <h3>Sign up</h3>
+        <label><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" required>
+        <label><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+         <label><b>Password</b></label>
+         <input type="password" placeholder="Enter Password" name="psw" required>
+         <label><b>Repeat Password</b></label>
+         <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+         <label><b>Department</b></label>
+         <input type="text" placeholder="Department" name="dpt" required>
+         <label><b>Role</b></label>
+         <input type="text" placeholder="role" name="role" required>
     
-
-    <div class="clearfix">
-   
+    
       <button type="submit" class="signupbtn">Sign Up</button>
+        <p class="change_link">  
+           Already a member ?
+              <a href="#" class="to_register"> Go and log in </a></p>
+    
+    </div>
+   </form>
+ <!-- </div> -->
+</div>

@@ -1,6 +1,8 @@
+
+
 @font-face {
-    font-family: roboto-regular;
-    src: url(../../fonts/Roboto-Regular.ttf);
+    font-family: OpenSans-Regular;
+    src: url(../../fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
@@ -43,9 +45,9 @@
     src: url(../../fonts/GothamRoundedBook_21018.ttf);
 }
 
-$_primaryColor: #FF5722;
-$_secondaryColor: #383C57;
-$_accentColor: #FF9800;
+$primaryColor: #FF5722;
+$secondaryColor: #383C57;
+$accentColor: #FF9800;
 $borderPrimary: #dddddd;
 $contentFont1: 13px;
 $contentFont2: 14px;

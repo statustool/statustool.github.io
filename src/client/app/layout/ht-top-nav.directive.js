@@ -18,25 +18,25 @@
       templateUrl: 'app/layout/ht-top-nav.html'
     };
 
-    TopNavController.$inject = ['$scope', 'AuthenticationService', '$location'];
+    // TopNavController.$inject = ['$scope', 'AuthenticationService', '$location'];
 
-    /* @ngInject */
-    function TopNavController($scope, AuthenticationService, $location) {
-      var vm = this;
-      $scope.isCollapsed = true;
-      vm.logout = logout;
+    // /* @ngInject */
+    // function TopNavController($scope, AuthenticationService, $location) {
+    //   var vm = this;
+    //   $scope.isCollapsed = true;
+    //   vm.logout = logout;
 
-      function logout() {
+    //   function logout() {
 
-        AuthenticationService.Logout(function (response) {
-          if (response === true) {
-            $location.path('/login');
-          }
-        });
+    //     AuthenticationService.Logout(function (response) {
+    //       if (response === true) {
+    //         $location.path('/login');
+    //       }
+    //     });
 
-      }
+    //   }
 
-    }
+    // }
 
     return directive;
   }

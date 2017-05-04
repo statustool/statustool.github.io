@@ -1,2 +1,111 @@
-@import "attribute";
-@import "bootstrap";
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../../fonts/OpenSans-Regular.ttf);
+}
+body {
+  font-family: "OpenSans-Regular";
+}
+#header{
+	height:60px;
+}
+#header img{
+	height:50px;
+}
+
+//all element
+
+
+#register{
+
+    top: 0px;
+    width: 88%;
+    padding: 18px 6% 60px 6%;
+    margin: 0 0 35px 0;
+    background: rgb(247, 247, 247);
+    border: 1px solid rgba(147, 184, 189,0.8);
+}
+ #wrapper {
+ 
+    right: 0px;
+   
+    margin: 0px auto;
+    width: 650px;
+    position: relative;
+}
+h3{
+	text-align:center;
+	font-size:30px;
+	margin:0px;
+}
+//
+// register page
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    
+}
+
+
+.container {
+    padding: 16px;
+}
+
+
+.change_link{
+	display:inline-block;
+}
+
+//login Details//
+
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    
+    cursor: pointer;
+    width: 20%;
+    margin-left:30%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.login_icon {
+    width: 20%;
+    border-radius: 40%;
+}
+
+
+
+
+
+
+//layout
+
+#layout{
+	
+	
+	width:100px;
+
+}
+.layout1{
+border:1px solid black;	
+	height:110px;
+}
